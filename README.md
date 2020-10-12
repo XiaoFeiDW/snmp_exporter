@@ -18,7 +18,7 @@ releases](https://github.com/prometheus/snmp_exporter/releases) page.
 ./snmp_exporter
 ```
 
-Visit http://localhost:9116/snmp?target=1.2.3.4 where 1.2.3.4 is the IP of the
+Visit http://localhost:9116/snmp?target=1.2.3.4&community=public&version=2c where 1.2.3.4 is the IP of the
 SNMP device to get metrics from. You can also specify a `module` parameter, to
 choose which module to use from the config file.
 
